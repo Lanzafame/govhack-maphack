@@ -160,7 +160,7 @@ public class MainHeatmap extends AppCompatActivity implements LocationListener{
     private void setUpMap() {
         ac = new AccidentCollection(mMap, this);
         mMap.setMyLocationEnabled(true);
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(-27.4975628,153.0133963)).title("Marker"));
         mMap.setOnCameraChangeListener(new GoogleMap.OnCameraChangeListener() {
             @Override
             public void onCameraChange(CameraPosition cameraPosition) {
